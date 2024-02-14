@@ -1,3 +1,89 @@
+body {
+	font-family: "Roboto";
+	margin: 0;
+	padding: 0;
+	background-color: #070d10;
+	color:#01d2e5;
+}
+
+img {
+	width: 100%;
+	height: auto;
+}
+
+.small-img {
+	width: 10%;
+}
 .flex-container {
 	display:flex;
+	gap: 1em;
+}
+
+.full-height{
+	height: 100vh;
+}
+
+.full-width{
+	width: 100%;
+}
+
+
+.bg-secondary-color-gradient {
+	background: rgb(1,210,229);
+	background: linear-gradient(0deg, rgba(1,210,229,1) 0%, rgba(7,13,16,1) 31%, rgba(7,13,16,1) 100%);
+}
+
+.bg-secondary-color{
+	background: rgb(1,210,229);
+}
+
+
+.font-white {
+	color: white;
+}
+
+/*
+.h20 {
+	height: 10vh;
+}
+*/
+
+.p1 {
+	padding: 1em;
+}
+
+.m1 {
+	margin: 1em;
+}
+
+.centered {
+	justify-content: center;
+	align-content: center;
+	justify-items: center;
+	align-items: center;
+}
+
+.font-big {
+	font-size: 3rem;
+}
+
+.font-biggest {
+	font-size:10rem;
+}
+
+
+.col {
+	flex-direction: column;
+}
+
+.circle {
+	border-radius: 50%;
+}
+
+.w-50 {
+	width: 50%;
+}
+
+.text-end {
+	text-align: end;
 }
