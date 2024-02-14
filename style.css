@@ -12,8 +12,8 @@ img {
 }
 
 .small-img {
-	width: 6vw;
-	height: 6vw;
+	width: 15vw;
+	height: 15vw;
 	object-fit: contain;
 }
 
