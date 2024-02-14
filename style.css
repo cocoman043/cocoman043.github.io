@@ -37,7 +37,13 @@ img {
 	background: rgb(1,210,229);
 }
 
+.bg-primary-color{
+	background-color: #070d10;
+}
 
+.border-rounded {
+	border-radius: 1em;
+}
 .font-white {
 	color: white;
 }
