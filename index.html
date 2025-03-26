@@ -1,12 +1,122 @@
-<!DOCTYPE html>
-<html>
+<!doctype html>
+<html lang="en">
 	<head>
-		<title>Renz Campita</title>
-		<link rel="preconnect" href="https://fonts.googleapis.com">
-		<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-		<link href="https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&display=swap" rel="stylesheet">
-		<link rel="stylesheet" type="text/css" href="style.css">
+		<meta charset="utf-8">
+		<meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=no">
+
+		<title>reveal.js</title>
+
+		<link rel="stylesheet" href="dist/reset.css">
+		<link rel="stylesheet" href="dist/reveal.css">
+		<link rel="stylesheet" href="dist/theme/night.css">
+
+		<!-- Theme used for syntax highlighted code -->
+		<link rel="stylesheet" href="plugin/highlight/monokai.css">
 	</head>
 	<body>
-		<object data="myfile.pdf" width="1000" height="1000" type='application/pdf'/>
+		<div class="reveal">
+			<div class="slides">
+        <section>
+        </section>
+        <section data-auto-animate>
+          <h2 class="r-fit-text">PROTOTYPING</h2>
+        </section>
+        <section data-auto-animate>
+          What is
+          <h2 class="r-fit-text">PROTOTYPING</h2>
+        </section>
+        <section>
+          <h3>PROTOTYPING</h3>
+          <p class="fragment">is the process of creating a simple, early version of a game to test ideas, mechanics, and concepts before full development begins</p>
+        </section>
+        <section>
+          <small>the contents of this workshop is based on</small></br>
+          <img data-src="./img/art_of_game_design.png" class="r-stretch"></br>
+        </section>
+        <section>
+         <h2>5 tips for productive prototyping</h2> 
+          <!-- <ol> -->
+          <!--   <li class="fragment fade-in-then-semi-out">Answer a Question</li> -->
+          <!--   <li class="fragment fade-in-then-semi-out">Forget Quality</li> -->
+          <!--   <li class="fragment fade-in-then-semi-out">Don't Get Attached</li> -->
+          <!--   <li class="fragment fade-in-then-semi-out">It Doesn't Have to be Digital</li> -->
+          <!--   <li class="fragment fade-in-then-semi-out">Build the Toy First</li> -->
+          <!-- </ol> -->
+        </section>
+        <section>
+          <section><h2>Answer a Question</h2></section>
+          <section>Every prototype should be designed to answer a <b>clear</b> question</section>
+          <section>How many animated characters can our technology support in a scene?</section>
+          <section>Do our characters and settings fit together well aesthetically?</section>
+          <section>How large does a level of this game need to be?</section>
+          <section>Is our core gameplay fun? Does it stay fun for a long time?</section>
+          <section>
+            <iframe class="r-stretch" src="https://deck.artofgamedesign.com/#/?lang=en"></iframe>
+            deck.artofgamedesign.com
+          </section>
+        </section>
+        <section>
+          <section><h2>Forget Quality</h2></section>
+          <section>all that matters is whether it answers the question</section>
+          <section>The faster you build the prototype that answers your question, the better, despite how ugly it may look</section>
+        </section>
+        <section>
+          <section><h2>Don't Get Attached</h2></section>
+          <section>it is all temporary</section>
+          <section><p class="r-fit-text">
+            <span style="color: red;">kill</span>
+            <span class="fragment">your</span> 
+            <span class="fragment">darlings</span>
+          </p></section>
+          <section>
+            <div class="r-stack">
+              <img data-src="./img/babies.png">
+              <img class="fragment" data-src="./img/oh_hell_nah.jpeg"
+            </div>
+          </section>
+        </section>
+        <section>
+          <section><h2>It Doesn't Have to be Digital</h2></section>
+          <section>
+            <i>paper prototype</i>
+          </section>
+          <section>
+          <iframe class="r-stretch" src="https://www.youtube.com/embed/dt1bQsZ68iw?autoplay=1" data-autoplay></iframe>
+          </section>
+        </section>
+        <section>
+          <section><h2>Build the Toy First</h2></section>
+          <section>"A ball is a toy, but baseball is a game"</section>
+        </section>
+        <section>
+          <section>
+            Game Maker's Toolkit
+            <iframe width="560" height="315" src="https://www.youtube.com/embed/9Yomqk0C6kE?si=DGJleZeiVyc4i0Ae" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
+          </section>
+          <section>
+            Design Doc </br>
+            <iframe width="560" height="315" src="https://www.youtube.com/embed/bE_ZuNp1CTI?si=_KG54xLltOnBtzUl" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
+          </section>
+        </section>
+        <section>
+          now for the moment you've all been waiting for
+        </section>
+			</div>
+		</div>
+
+		<script src="dist/reveal.js"></script>
+		<script src="plugin/notes/notes.js"></script>
+		<script src="plugin/markdown/markdown.js"></script>
+		<script src="plugin/highlight/highlight.js"></script>
+		<script>
+			// More info about initialization & config:
+			// - https://revealjs.com/initialization/
+			// - https://revealjs.com/config/
+			Reveal.initialize({
+				hash: true,
+				// Learn about plugins: https://revealjs.com/plugins/
+				plugins: [ RevealMarkdown, RevealHighlight, RevealNotes ]
+			});
+		</script>
 	</body>
+</html>
